@@ -1,0 +1,26 @@
+[package]
+name = "example-greeter"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+
+[dependencies.gio]
+package = "gio"
+git = "https://github.com/gtk-rs/gtk-rs-core"
+
+[dependencies.glib]
+package = "glib"
+git = "https://github.com/gtk-rs/gtk-rs-core"
+
+[dependencies.gtk4]
+package = "gtk4"
+git = "https://github.com/gtk-rs/gtk4-rs"
+
+[dependencies.lightdm]
+package = "lightdm"
+path = "../lightdm"
+
+[features]
+v1_11_1 = ["lightdm/v1_11_1"]

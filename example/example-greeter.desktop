@@ -1,0 +1,8 @@
+# Copy this file to /usr/share/xgreeters, and update your lightdm.conf(.d) files to point to this
+# or use lightdm --test-mode and point to a config file to try this out
+# WARNING: THIS GREETER DOES NOT PROVIDE LOGIN! This is just a proof of concept.
+[Desktop Entry]
+Name=Example Greeter
+Comment=Example Greeter written in Rust
+Exec=example-greeter
+Type=Application
