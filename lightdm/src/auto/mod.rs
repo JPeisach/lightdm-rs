@@ -5,6 +5,8 @@
 
 mod greeter;
 pub use self::greeter::Greeter;
+// TODO: figure out how to get gir to automatically make this public
+pub use self::greeter::GreeterExt;
 
 mod language;
 pub use self::language::Language;
