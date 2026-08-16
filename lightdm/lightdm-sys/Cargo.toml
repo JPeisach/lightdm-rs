@@ -1,5 +1,5 @@
 [package]
-name = "light-dm-sys"
+name = "lightdm-sys"
 version = "0.0.1"
 edition = "2021"
 build = "build.rs"
@@ -11,7 +11,7 @@ rustdoc-args = ["--generate-link-to-definition"]
 all-features = true
 
 [lib]
-name = "light_dm_sys"
+name = "lightdm_sys"
 
 [dependencies]
 libc = "0.2"

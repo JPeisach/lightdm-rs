@@ -5,7 +5,7 @@
 
 #![cfg(unix)]
 
-use light_dm_sys::*;
+use lightdm_sys::*;
 use std::mem::{align_of, size_of};
 use std::env;
 use std::error::Error;

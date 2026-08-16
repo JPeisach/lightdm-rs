@@ -12,3 +12,6 @@ external_libraries = [
     "GLib",
     "GObject",
 ]
+
+[crate_name_overrides]
+"light_dm" = "lightdm"
