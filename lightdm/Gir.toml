@@ -1,0 +1,27 @@
+[options]
+library = "LightDM"
+version = "1"
+min_cfg_version = "1.0"
+target_path = "."
+girs_directories = ["../gir-files", "/usr/share/gir-1.0"]
+work_mode = "normal"
+single_version_file = true
+generate_safety_asserts = true
+deprecate_by_min_version = true
+
+generate = [
+    "LightDM.Greeter",
+    "LightDM.GreeterError",
+    "LightDM.Language",
+    "LightDM.Layout",
+    "LightDM.MessageType",
+    "LightDM.PromptType",
+    "LightDM.Session",
+    "LightDM.User",
+    "LightDM.UserList",
+]
+
+manual = [
+    "Gio.Cancellable",
+    "GLib.Error",
+]
